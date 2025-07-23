@@ -64,6 +64,12 @@
   gap: 50px;
 }
 
+.match-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
 .match-left {
   background-color: black;
   display: flex;
@@ -81,8 +87,32 @@
   color: black;
 }
 
-.match-right {
+.match-right .transfer-card {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 10px;
+}
+
+.transfer-card .btn {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.transfer-card img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.transfer-card h3 {
+  margin: 15px 0;
+}
+
+.transfer-card .card-body {
+  padding: 20px 20px;
 }
 
 .card-bottom {
+  display: flex;
+  gap: 30px;
 }
